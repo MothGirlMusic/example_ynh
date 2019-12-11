@@ -20,6 +20,17 @@
     "multi_instance": false,
     "services": [],
     "arguments": {
-        "install" : []
-    }
+        "install" : [
+			{
+				"name": "location",
+				"type": "string",
+				"ask": {
+					"en": "Is this a Master or Slave server?",
+					"fr": "Is this a Master or Slave server?"
+				},
+				"choices" : ["master", "slave"],
+				"default" : "slave"
+			}
+		]
+	}
 }
