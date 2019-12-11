@@ -1,6 +1,6 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
+SOURCE_URL=https://github.com/MothGirlMusic/mothification_ynh/raw/master/sources/Archiv.zip
+SOURCE_SUM=4500a5fa23b8f37cd013fd053c37d48a
+SOURCE_SUM_PRG=md5sum
+SOURCE_FORMAT=zip
+SOURCE_IN_SUBDIR=false
 SOURCE_FILENAME=
