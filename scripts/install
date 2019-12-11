@@ -15,6 +15,8 @@ source /usr/share/yunohost/helpers
 
 location=$YNH_APP_ARG_LOCATION
 
+app=$YNH_APP_INSTANCE_NAME
+
 #=================================================
 # CHECK IF THE APP CAN BE INSTALLED WITH THESE ARGS
 #=================================================
