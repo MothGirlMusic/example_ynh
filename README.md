@@ -9,7 +9,8 @@ This changes the YunoHost theme and installs some other small edits to make the 
 
 ## Screenshots
 
-TBA
+![image](https://raw.githubusercontent.com/MothGirlMusic/mothification_ynh/master/login.png)
+![image](https://raw.githubusercontent.com/MothGirlMusic/mothification_ynh/master/terminal.png)
 
 ## Configuration
 
