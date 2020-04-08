@@ -68,7 +68,11 @@ mv "/etc/issue" "/etc/issue.old"
 mv "/etc/motd" "/etc/motd.old"
 mv "$final_path/issue" "/etc/issue"
 mv "$final_path/motd" "/etc/motd"
-ynh_script_progression --message="Copying source files..." --time --weight=8
+ynh_script_progression --message="Copying source files..." --time --weight=6
+
+mv "/usr/bin/yunoprompt" "/usr/bin/yunoprompt.old"
+mv "$final_path/yunoprompt" "/usr/bin/yunoprompt"
+ynh_script_progression --message="Copying source files..." --time --weight=2
 
 #=================================================
 # GENERIC FINALIZATION
